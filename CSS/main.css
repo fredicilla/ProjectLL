@@ -7,7 +7,7 @@ body {
           background-color: rgb(184, 135, 184);
         }
         
-        header {
+        .clearfix header {
           background-color: #d9d9d9;
           padding: 20px;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -16,14 +16,9 @@ body {
         
         nav {
           display: flex;
-          justify-content: center;
-          gap: 20px;
+          /* gap: 20px; */
         }
-        header img{
-          display:block;
-          border-radius: 15px;
-          margin-inline-start: 15%;
-        }
+       
         
         nav a {
           color: #ffffff;
@@ -32,6 +27,7 @@ body {
           border-radius: 3px;
           text-decoration: none;
           height: fit-content;
+          justify-content: end;
 
         }
         
