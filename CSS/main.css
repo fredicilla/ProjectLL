@@ -1,0 +1,96 @@
+*{
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+          margin: 0;
+          padding: 0;
+          background-color: rgb(184, 135, 184);
+        }
+        
+        header {
+          background-color: #d9d9d9;
+          padding: 20px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          height: 12vh;
+        }
+        
+        nav {
+          display: flex;
+          justify-content: center;
+          gap: 20px;
+        }
+        header img{
+          display:block;
+          border-radius: 15px;
+          margin-inline-start: 15%;
+        }
+        
+        nav a {
+          color: #ffffff;
+          padding: 10px;
+          transition: background-color 0.3s ease, box-shadow 0.3s ease;
+          border-radius: 3px;
+          text-decoration: none;
+          height: fit-content;
+
+        }
+        
+        nav a:hover {
+          background-color: #9f9696;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        main {
+          padding: 50px;
+        }
+        
+        .about {
+          width: 65%;
+          height: 33vh;
+          background-color: #e8d3ef;
+          padding: 20px;
+          border-radius: 10px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          margin: 20px;
+        }
+           .container {
+          display: flex;
+          justify-content: space-between;
+          margin: 20px auto;
+          width: 65%;
+          height: 35%;
+          background-color: rgb(242, 229, 255);
+          border-radius: 4px;
+        }
+        
+        .column {
+          width: 50%;
+          box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+          padding: 20px;
+          
+
+        }
+
+
+        .card-buttons {
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 20px;
+        }
+        
+        .card-buttons button {
+          padding: 10px 20px;
+          background-color: #994c4c;
+          color: #b386a9;
+          border: none;
+          border-radius: 5px;
+          
+        }
+        
+        footer {
+          background-color: #f2f2f2;
+          padding: 20px;
+          text-align: center;
+        }
+        
+      
